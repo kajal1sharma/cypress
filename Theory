@@ -1,0 +1,80 @@
+Testing => Manual , Automation
+
+Cypress js => Automation Testing Tool
+
+frontend web application 
+    
+====frontend  => part of application that runs on the browser is called as frontend
+    
+desktop application and mobile application cannot be tested using cypress
+
+cypress js does not use selenium internally
+cypress => javascript/Typescript 
+open source 
+
+testrunner => free
+dashboard => paid
+
+environment  that cypress uses is of node js (npm npx)
+
+=> developer , QA(Tester)
+
+End to end Testing(Login=> Username , Password , SignIn)
+Integration Testing(Username=> 8 character , passowrd => aplpha numeric +special char + signin)
+Unit Testing(Username input box)(color =>gray,back=> red, length'=> 8)
+Api Testing(frontend - backend )
+
+selenium => web application,completely free
+            Java,javascript,python, c# ....
+            selenium supports all the major browser (chrome, firefoz, IE, opera, safari)
+            performance wise => slow   
+
+Cypress => web app and api testing , testrunner          free, dashboard => paid
+            javascript/Typescript 
+            limited browser support 
+            framework => Mochajs 
+            runs inside browser hence it is fasr 
+
+
+environment
+ install nodejs, visual studio code 
+
+ features
+ ========
+ 1:Time Travel 
+ 2:Debuggability
+ 3:Automatic waiting
+ 4:Network Traffic Control
+ 5:Consistent Result
+ 6:Screenshots, video ,Replay
+ 7:Cross Browser Support
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
