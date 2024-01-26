@@ -1,11 +1,24 @@
-describe('template spec 1', () => {
+// describe('resistration test', () => {
   
-  it('passes 1', () => {
-    cy.visit('https://example.cypress.io')
-  })
+//   it('passes 1', () => {
+//     cy.visit('https://example.cypress.io')
+//   })
 
-  it('passes 2', () => {
-    cy.visit('https://www.google.co.in/')
+
+// })
+
+//website=> elements 
+// class 
+// id
+// tag 
+// selectors
+
+
+describe("registration test", function(){
+
+  it("usrname test", function(){
+      cy.visit("http://127.0.0.1:5500/index.html")
+      cy.get("button").click()
   })
 
 })
