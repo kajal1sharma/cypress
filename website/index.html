@@ -6,11 +6,9 @@
     <title>My first Website</title>
     <style>
         body{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
+            
             height:100vh;
-            align-items: center;
+            
         }
         input{
             padding:20px;
@@ -24,12 +22,13 @@
     </style>
 </head>
 <body>
-    
-    <h1>This is My Project</h1>
-    
-    <input type="text" name="username" placeholder="username"/>
-    <input type="text" name="password" placeholder="password"/>
-    <button id="sub_btn" >Submit</button>
+    <div style="padding-top:200px;height:40vh;display: flex;flex-direction: column;border:1px solid black">
+        <h1 id="heading">This is My Project</h1>
+        
+        <input type="text" name="username" placeholder="username"/>
+        <input class="inp_2" type="text" name="password" placeholder="password"/>
+        <button id="sub_btn" >Submit</button>
+        </div>
     <p id="para"></p>
 </body>
 <script>

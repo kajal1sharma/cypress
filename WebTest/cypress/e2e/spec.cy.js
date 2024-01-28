@@ -18,7 +18,10 @@ describe("registration test", function(){
 
   it("usrname test", function(){
       cy.visit("http://127.0.0.1:5500/index.html")
-      cy.get("button").click()
+      // cy.get("button").click()
+      cy.get('[name="username"]').type("preeti")
+      cy.get('.inp_2').type("123456789")
+      cy.get('#sub_btn').click()
   })
 
 })
