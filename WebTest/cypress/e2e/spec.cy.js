@@ -39,12 +39,13 @@ describe("registration test", function(){
     // .should('contain',"index")
     // .should('include',"index.html")
 
-    cy.visit("http://127.0.0.1:5500/index.html")
+    cy.visit("https://www.amazon.in/")
     cy.url().should('not.eq','http://127.0.0.1:5500/index.html/shoes')
-    .and('contain',"index")
+    .and('not.contain',"index")
     .and('not.include',"index.html2")
 
-    cy.get("#heading").should("be.visible").and('not.have.length','18')
+    cy.get('[href="/deals?ref_=nav_cs_gb"]').should("be.visible").and('eq',"abc")
+    // cy.get("#heading").should("be.visible").and('not.have.length','18')
   // check if company name "company" if correct on website
   })
 
