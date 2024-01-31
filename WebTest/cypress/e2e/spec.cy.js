@@ -42,7 +42,10 @@ describe("registration test", function(){
     cy.visit("http://127.0.0.1:5500/index.html")
     cy.url().should('not.eq','http://127.0.0.1:5500/index.html/shoes')
     .and('contain',"index")
-    .and('include',"index.html")
+    .and('not.include',"index.html2")
+
+    cy.get("#heading").should("be.visible").and('not.have.length','18')
+  // check if company name "company" if correct on website
   })
 
 })
